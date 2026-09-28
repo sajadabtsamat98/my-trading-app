@@ -186,3 +186,5 @@ def core_loop():
 
             # البث الدوري لتليجرام كل 15 دقيقة
             if t_now - last_broadcast_time >= 900:
+                app = app
+
